@@ -2,7 +2,7 @@
 
 AMP커뮤니티에서 처음시작하는 컨트리 뷰터들을 위해서 뽑은 이슈들을 가지고 컨트리뷰트 절차 배우기
 
-## 1. Add examples to amp-image-slider.md
+## [1. Add examples to amp-image-slider.md](https://github.com/ampproject/amphtml/issues/18058)
 
 ### post
 
@@ -69,3 +69,23 @@ step-size
 Once approved, your changes will be merged. ⚡⚡⚡Congrats on making your first contribution to the AMP Project!⚡⚡⚡ You'll be able to see it live across the web soon!
 
 만약 풀리퀘스트가 허가된다면 당신이 기여한 코드는 머지 될것이다.
+
+
+## [2. [amp-image-slider] Use the semantic cursor for the dragging bar](https://github.com/ampproject/amphtml/issues/18056)
+
+### post
+
+```
+<amp-image-slider> should use cursor: col-resize as an extra affordance that the bar is draggable.
+
+<amp-image-slider> col-resize를 드래그로 조정하기 위해서 커서를 사용해야한다.
+
+
+
+Even though you can actually start dragging anywhere, we should still show the cursor when the user is on top of the bar (perhaps with some padding on the left/right).
+
+드래깅은 할 수는 있지만, 커서가 바위에 있을때는 커서가 보여야 한다.
+(왼쪽과 오른쪽에 일부 패딩과 함께)
+
+
+```
