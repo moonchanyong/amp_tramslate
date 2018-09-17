@@ -89,3 +89,31 @@ Even though you can actually start dragging anywhere, we should still show the c
 
 
 ```
+
+## [amp-twitter fails with dynamic data-tweetid](https://github.com/ampproject/amphtml/issues/17953)
+
+### post
+
+```
+I am trying to integrate these awesomely 😍 written AMP web components in my website [angular content/resource platform]
+but facing issue in it.
+the issue i am facing is :
+It works perfectly fine when i use the static tweetid in amp twitter component
+
+<amp-twitter width="375" height="472" layout="responsive" data-tweetid="638793490521001985"> </amp-twitter>
+
+but when i try to make dynamic it fails.
+
+<amp-twitter width="375" height="472" layout="responsive" [data-tweetid]="id"> </amp-twitter>
+
+amp-twitter를 웹사이트와 연동중에 문제가 생겻다.
+문제는 내가 고정 트위터 아이디를 잘 사용할때는 동작하지만, 동적으로 트위터아이디를 주면(바인딩 써서인듯) 동작하지않는다.
+
+where id is variable with data. 😬
+using it with Angular 6.
+can you guys explain possible reason.
+
+id는 변수를 데이터로 주었고, 앵귤러를 사용중이다.
+이 문제를 해결할 수 있는 사람 있나요 ?
+```
+
